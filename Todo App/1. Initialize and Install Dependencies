@@ -5,7 +5,7 @@
 
 3. Intialize the project
 
-4. Install Express.js, then check the dependencies to make sure that it was installed
+4. Install Express.js (ensure that it is higher that 5.0.1), then check the dependencies to make sure that it was installed
 
 5. Install the following dependencies:  bycryptjs, body-parser, cookie-parser, cors, dotenv, jsonwebtoken, mongoose, and nodemon (should be 9 total).  Check and ensure they are all installed
 
