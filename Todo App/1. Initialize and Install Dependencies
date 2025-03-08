@@ -8,3 +8,7 @@
 4. Install Express.js, then check the dependencies to make sure that it was installed
 
 5. Install the following dependencies:  bycryptjs, body-parser, cookie-parser, cors, dotenv, jsonwebtoken, mongoose, and nodemon (should be 9 total).  Check and ensure they are all installed
+
+6. Create index.js under the 'node_modules' directory.  Console log 'hello world' to the browser by creating a script in 'package.json'
+
+Source: https://www.youtube.com/watch?v=3Q77DiYSFI4&ab_channel=JavaScriptUnleashed (0:00 - 5:30)
