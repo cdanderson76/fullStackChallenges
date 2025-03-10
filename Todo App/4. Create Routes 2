@@ -14,5 +14,6 @@
    -getTodo
    -updateTodo
    -deleteTodo
+   -addTodo
 
    Don't forget to test afterward...
