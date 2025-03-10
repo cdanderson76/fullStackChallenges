@@ -10,3 +10,15 @@
 5. Test the route in Postman.  When you hit the 'login' endpoint, you should get 'login route' in the app console.  Ensure that you 'Save' it.
 
 6. Test out the rest of the routes that were imported
+
+7. Copy and paste all of the routes from 'auth.js' into 'todos.js'.  Switch all of the endpoints to the following:
+
+   -change the first endpoint to retrieve all of the todos
+   -change the second endpoint to post/create/return the todo
+   -change the third endpoint to update the todo
+
+8. Create a route that will DELETE a todo.
+
+9. Import the routes from the 'todo.js' file into 'index.js'
+
+10. Test out the routes in Postman
