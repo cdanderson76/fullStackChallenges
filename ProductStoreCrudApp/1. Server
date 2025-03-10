@@ -1,0 +1,6 @@
+1. Create a folder on your desktop called 'mern-crash-course'.  Inside of that folder, create folders called 'frontend' and 'backend'.  We will focus on the backend first and build an API.
+   Once we build it, we will move on to the frontend.
+
+2. Ensure that you are inside of the 'mern-crash-course' folder, and initialize/set up a new npm package.
+
+3. Install the following packages: express, mongoose, dotenv
