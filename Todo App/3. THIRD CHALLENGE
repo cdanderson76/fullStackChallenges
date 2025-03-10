@@ -1,2 +1,12 @@
 1. Download the zip folder from this location to your desktop: https://github.com/cdanderson76/fullStackChallenges/blob/main/Todo%20App/merntodo2.zip
    NOTE:  YOU MAY HAVE TO TEMPORARILY TURN OFF THREAT PROTECTION FROM WINDOWS DEFENDER
+
+2. It's time to create our routes.  So inside of the server folder, create a 'routes' folder.  Inside of this folder, create files 'auth.js' and 'todo.js'.
+
+3. Define all of your routes that will be associated with authentication in 'auth.js'.
+
+4. Import the routes from the 'auth.js' file into 'index.js'.  
+
+5. Test the route in Postman.  When you hit the 'login' endpoint, you should get 'login route' in the app console.  Ensure that you 'Save' it.
+
+6. Test out the rest of the routes.
