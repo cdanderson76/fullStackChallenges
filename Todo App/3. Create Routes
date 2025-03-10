@@ -5,6 +5,8 @@
 
 3. Define all of your routes that will be associated with authentication in 'auth.js'.  Create the following endpoints:
 
+   -main endpoint will be '/api/user'
+
    -one for 'login'
    -one for 'register'
    -one for 'logout'
@@ -16,6 +18,8 @@
 6. Test out the rest of the routes that were imported
 
 7. Copy and paste all of the routes from 'auth.js' into 'todos.js'.  Switch all of the endpoints to the following:
+
+   -main endpoint will be '/api/todo'
 
    -change the first endpoint to retrieve all of the todos
    -change the second endpoint to post/create/return the todo
