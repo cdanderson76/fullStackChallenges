@@ -5,7 +5,8 @@
 
 3. Create an async function called 'register', and send the text 'register route'.  Copy and paste this into '/controllers/auth.js'.  
 
-4. Open the '/routes/auth.js' routes and import the async function into the file.  Replace the 'register' route with the appropriate syntax and test it out in Postman.  Repeat process 3-4 for the 'login' and 'logout' routes
+4. Open the '/routes/auth.js' routes and import the async function into the file.  Replace the 'register' route with the appropriate syntax and test it out in Postman.  Repeat process 3-4 for the 
+   'login' and 'logout' routes
 
 5. Now, create async functions for the routes in '/controllers/todo.js'.  Repeat the same process for the associated file that's listed in steps 3-4.  Functions can be called as follows:
 
