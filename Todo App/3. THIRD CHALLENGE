@@ -9,4 +9,4 @@
 
 5. Test the route in Postman.  When you hit the 'login' endpoint, you should get 'login route' in the app console.  Ensure that you 'Save' it.
 
-6. Test out the rest of the routes.
+6. Test out the rest of the routes that were imported
