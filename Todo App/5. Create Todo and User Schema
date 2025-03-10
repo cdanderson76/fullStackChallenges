@@ -20,6 +20,8 @@ NOW LET'S CONNECT TO MONGODB!!!!
 
 7. Inside of the SERVER directory, create a '.env' file.  List the Mongo URI here as a sting variable and use it inside of 'connect.js'
 
+8. Set up JWT secret key in the '.env' file.  Set up any string value for this.  Also, set up a 'node' environment variable
+
 WHEN FINISHED, YOUR CONSOLE SHOULD STILL BE LISTENING ON ITS CURRENT PORT WITH NO ISSUES
 
-8. Set up JWT secret key in the '.env' file.
+
