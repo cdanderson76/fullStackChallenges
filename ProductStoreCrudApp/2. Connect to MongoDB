@@ -11,4 +11,13 @@ NOTE:  YOU WILL PROBABLY TEMPORARILY HAVE TO TURN OFF WINDOWS DEFENDER IN ORDER 
 
 3. In the 'server.js' file, console log the connection to the MongoDB database to ensure that you are connected.
 
+4. Create a folder called 'config' inside of the 'backend' directory, and create a file within this new folder called 'db.js'.
+
+5. Inside of the 'db.js' file, create an async function with a 'try/catch' using the mongoose package to connect to our database.  Console log the following if the 
+   connection is successful:  MonoDB Connected: ${conn.connection.host}.  
+
+   Log out the error message otherwise
+
+6. Import the 'connectDB' function into 'server.js' and invoke it.
+
 Solution: https://shorturl.at/BxoND
