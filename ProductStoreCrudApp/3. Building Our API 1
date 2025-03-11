@@ -4,11 +4,20 @@ NOTE:  YOU WILL PROBABLY TEMPORARILY HAVE TO TURN OFF WINDOWS DEFENDER IN ORDER 
 1. Create a folder called 'models' under the backend directory. Under this folder, create a file called 'product.model.js', and create the product model.  Each product
    will have the following:
 
-  -name (which is a string, and it should be required)
-  -price(which is a number, and it should be required)
-  -image(which is a string, and it should be required)
+   -name (which is a string, and it should be required)
+   -price(which is a number, and it should be required)
+   -image(which is a string, and it should be required)
 
-  Also, ensure you add the appropriate syntax to provide 'createdAt' and 'updatedAt' properties to list when something was created and when it was updated.  Export the
-  product when it's created.
+    Also, ensure you add the appropriate syntax to provide 'createdAt' and 'updatedAt' properties to list when something was created and when it was updated.  Export the
+    product when it's created.
 
-2.
+2. Modify the 'get' request in 'server.js' to be a 'post'.  Ensure that you apply the proper logic that if all of the proper fields are filled out, that it saves a product
+   to the MongoDB database.  Use the following for error codes:
+
+   -400 if all of the fields aren't filled out, use STATUS ('please provide all fields')
+   -201 for a successful save
+   -500 if the product wasn't successfully saved use STATUS 'Server Error', and log 'Error in create product:' with the catch error message
+
+3. Test this out using Postman.  When you test it out, be sure to change the endpoint to '/api/products' so that we know we are referencing the API service
+
+Solution: https://shorturl.at/jK9kg
