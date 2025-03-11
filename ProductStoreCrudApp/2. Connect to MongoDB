@@ -1,10 +1,14 @@
 TO GET STARTED, DOWNLOAD THE ZIP FILE FROM THE FOLLOWING LOCATION:  https://github.com/cdanderson76/fullStackChallenges/blob/main/ProductStoreCrudApp/mern-crash-course.zip
 NOTE:  YOU WILL PROBABLY TEMPORARILY HAVE TO TURN OFF WINDOWS DEFENDER IN ORDER TO DOWNLOAD THE PREVIOUSLY LISTED FILE!!!
 
-1. Follow the steps in the document 'Create MongoDB Database'.  If you already have one created, skip this and do the following:
+1. Change the 'get' route in 'server.js' to '/products'.
+
+2. Follow the steps in the document 'Create MongoDB Database'.  If you already have one created, skip this and do the following:
 
    Get the connection string from Mongo DB.  Create a '.env' file within the 'mern-crash-course' directory, and within this file, create a variable called MONGO_URI and
    store the connection string within that variable (do not use a 'const', 'let', etc).  Within this connection string, you need to change what's in the '<>'.  Delete what's in side of these brackets and 
    paste the MongoDB password for that database.
 
-2. In the 'server.js' file, console log the connection to the MongoDB database to ensure that you are connected.
+3. In the 'server.js' file, console log the connection to the MongoDB database to ensure that you are connected.
+
+Solution: https://shorturl.at/BxoND
