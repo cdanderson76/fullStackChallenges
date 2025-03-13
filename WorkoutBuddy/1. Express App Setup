@@ -1,0 +1,21 @@
+CHALLENGE:
+
+1. Create a folder called 'mern stack'.  Create two folders within this directory called
+   'backend' and 'frontend'
+
+2. Inside of the 'backend' create a file called 'server.js'.
+
+3. Navigate into the 'backend' folder and initiate the project.  Install the following
+   packages: express, mongoose, dotenv
+
+4. Create the Express application inside of the 'server.js' file.  Once created, 
+   install the 'nodemon' dependency as a 'dev dependency'.  Go into the 'package.json' 
+   file and modify the start script to be a 'dev' script, so that you can just use 'npm 
+   run dev' in the command line.
+
+5. Ensure that when you open the port that you are broadcasting from that it reads 'Express App is Working!'
+
+
+Solution:
+
+https://www.youtube.com/watch?v=8DploTqLstE&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE&index=2&ab_channel=NetNinja
